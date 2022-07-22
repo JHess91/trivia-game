@@ -1,0 +1,117 @@
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    /* width: 100%; */
+    padding: 315px;
+   
+}
+
+article {
+    background: linear-gradient(
+      to right, 
+      #FF59FF, 
+      #36CBFF
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vmin;
+    line-height: 1.1;
+  }
+
+#question {
+    color:#ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    bottom: 90px;
+    text-align: center;
+}
+
+#question-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#true-button {
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #FF59FF;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #7f2e7f;
+    font-family: 'Asset', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#true-button:hover {background-color: #FF59FF}
+
+#true-button:active {
+    background-color: #FF59FF;
+    box-shadow: 0 5px #7f2e7f;
+    transform: translateY(4px);
+}
+
+#false-button {
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #36CBFF;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1f6a86;
+    font-family: 'Asset', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#false-button:hover {background-color: #36CBFF}
+
+#false-button:active {
+    background-color: #36CBFF;
+    box-shadow: 0 5px #1f6a86;
+    transform: translateY(4px);
+}
+
+#replay-button {
+    background-image: linear-gradient(to right, #FF59FF, #36CBFF);
+    display: none;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #f70404;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5c5959;
+    font-family: 'Asset', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#replay-button:active {
+    box-shadow: 0 5px #5c5959;
+    transform: translateY(4px);
+}
+

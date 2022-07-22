@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./trivia-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Boca Trivia</title>
+  </head>
+  <body>
+    <div id="question-container">
+        <article>
+      <h1 id="question">loading...</h1>
+        </article>
+      <div id="question-buttons">
+        <button class="button" id="true-button" onclick="handleTrue()">
+          True
+        </button>
+        <button class="button" id="false-button" onclick="handleFalse()">
+          False
+        </button>
+        <button
+          class="button"
+          id="replay-button"
+          onclick="replay()"
+        >
+          Replay
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./trivia-script.js"></script>
+</html>
