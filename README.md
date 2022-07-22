@@ -1,7 +1,7 @@
-# Calculator
+# Trivia Game
 
-Basic calculator using HTML CSS and JAVASCRIPT
+Trivia Game HTML CSS and JAVASCRIPT
 
-[Click to run demo](https://calculator-project-a1c83.web.app/)
+[Click to run demo]()
 
-![Counter App](./images/Screen%20Shot%202022-07-21%20at%2011.33.39%20PM.png)
+![Counter App](./img/Screen%20Shot%202022-07-22%20at%2012.10.58%20AM.png)
