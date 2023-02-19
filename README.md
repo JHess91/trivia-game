@@ -1,6 +1,6 @@
 # Trivia Game
 
-Trivia Game HTML CSS and JAVASCRIPT
+Trivia Game using HTML CSS and JAVASCRIPT
 
 [Click to run demo](https://trivia-game-ef6c9.web.app)
 
